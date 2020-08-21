@@ -5,6 +5,9 @@ name: Merge branch with labeled
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
+  pull_request_review:
+  check_run:
+    types: [completed]
   pull_request:
     types: [labeled]
 
