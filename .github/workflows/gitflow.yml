@@ -25,5 +25,5 @@ jobs:
       uses: devmasx/merge-branch@v1.3.0
       with:
         label_name: 'merge into develop'
-        targe_branch: 'develop'
+        target_branch: 'develop'
         github_token: ${{ github.token }}
