@@ -26,4 +26,4 @@ jobs:
       with:
         label_name: 'merge into develop'
         targe_branch: 'develop'
-        github_token: ''
+        github_token: ${{ github.token }}
